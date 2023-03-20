@@ -1,0 +1,125 @@
+/* To hide number selection arrows in number fields */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+body {
+    background-color: #2C3639;
+
+}
+
+.questions-area {
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    border: 5px solid #A27B5C;
+    background-color: #3F4E4F;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.q-group {
+    margin: auto;
+    margin-top: 10px;
+}
+
+button {
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #DCD7C9;
+    border: #A27B5C solid 3px;
+    width: 50%;
+    font-size: 16px;
+}
+
+.question {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 45%;
+}
+
+.q-group {
+    width: 70%;
+    border-radius: 40px;
+    border: #638a96 dashed 3px;
+    margin-bottom: 7px;
+}
+
+.q-text {
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.main-header {
+    color: white;
+    text-decoration: underline #6E7C7C;
+}
+
+.fortune-display {
+    margin: auto;
+    border-radius: 25px;
+    border: 5px solid #A27B5C;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fortune-display-text {
+    font-size: 28px;
+    color: white;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 25px;
+    border: 2px dashed #638a96;
+}
+
+img {
+    max-width: 40%;
+    height: auto;
+    margin: 10px;
+    border-radius: 25px;
+    border: 2px dashed #638a96;
+}
+
+.FD-header {
+    border: 5px solid #6E7C7C;
+    background-color: #3F4E4F;
+    color: white;
+    text-align: center;
+    width: 15%;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+#FDT-1 {
+	margin-left: 20px;
+}
+
+#FDT-2 {
+	margin-right: 20px;
+}
+
+.hidden-box {
+	width: 20px;
+    height: 20px;
+    background-color: #2C3639;
+}
+
+.hidden-info {
+  display: none;
+}
+    
+.hidden-box:hover + .hidden-info {
+  display: block;
+  color: white;
+  font-size: 12px;
+}
